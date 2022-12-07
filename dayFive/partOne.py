@@ -1,7 +1,7 @@
 inp = open('dayFive/input.txt', 'r')
 
 # Data structure for crates
-crates = [[], [], [], [], [], [], [], [], []]
+crates = [[] for i in range(9)]
 
 # Loops through crate schema
 line = inp.readline()
